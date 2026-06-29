@@ -56,8 +56,7 @@ async def main():
         json.dump(cfg, f, indent=2, ensure_ascii=False)
     print(f"\n✅ Конфиг: {cfg_path}")
     print(f"✅ Сессия: {session_path}")
-    print("\n🤖🦅 Пятый: Готово. Можешь юзать tg_send_*.py скрипты.")
-    print("   Копируй config.json и session файл в ~/Desktop/pyatyj-bot/pyatyj-bot/")
+    print("\n🤖🦅 Пятый: Готово. Все send-скрипты ищут config сами — никуда копировать не надо")
 
 if __name__ == "__main__":
     asyncio.run(main())
